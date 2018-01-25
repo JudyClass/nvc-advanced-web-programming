@@ -11,9 +11,13 @@
 
 // 01. Create and Call at least one function.
 
+$yas="Awesome sauce";
 
+function myFirstFunction() {
+	echo $yas;
+}
 
-
+myFirstFunction();
 
 // 02. Create a For Loop
 
