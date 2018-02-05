@@ -39,7 +39,14 @@ for($i=1; $i<=15; $i++){
 // 03. Create a While Loop
 echo "<h2>This is a while loop</h2>";
 
-
+$a = rand(0, 25);
+$b = rand(0, 25);
+do 
+{
+echo "$a is less than $b <br>";
+$a++;
+}
+while ($a < $b);
 
 
 
@@ -102,7 +109,7 @@ switch  (date('H')) {
 }
 
 echo date('h:i:s');
-echo "It is $title !"; 
+echo "<br>It is $title !"; 
 
 
 ?>
